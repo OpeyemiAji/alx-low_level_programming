@@ -9,7 +9,7 @@
 int main(void)
 {
 char lowAlpha;
-for (lowAlpha = 'z'; lowAlpha >= 'a'; lowAlpha--)			
+for (lowAlpha = 'z'; lowAlpha >= 'a'; lowAlpha--)
 {
 putchar(lowAlpha);
 }
