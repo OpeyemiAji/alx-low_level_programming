@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints if number is positive, zero or negative
+ * main - Prints alphabet in lowercase and uppercase
  *
  * Return: Always (Success)
  */
