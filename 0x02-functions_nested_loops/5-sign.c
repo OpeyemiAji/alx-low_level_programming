@@ -1,11 +1,24 @@
 #include "main.h"
 
 /**
- *_isalpha - prints 1 if c is lowercase and 0 if otherwise
- * @c: char
- * Return: validations
+ *Return: 1 if num is > 0
+ *0 if number is = 0  
+ *-1 if number is < 0  
  */
-int _isalpha(int c)
+int print_sign(int n) 
 {
-return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+if (n > 0)
+{
+_putchar('+'); 
+return (1);
+}
+else if (n == 0)
+{
+_putchar('0');
+return (0);
+}
+else
+{
+_putchar('-');
+return (-1);
 }
