@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *print_sign - This function checks for alphabets
+ *print_sign(int n) - This function checks for alphabets
  *
  *Return: Always 0 (Success)
  */
