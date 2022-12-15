@@ -18,6 +18,6 @@ return (n % 10);
 else
 {
 _putchar(a + '0');
-return (0);
+return (a);
 }
 }
