@@ -5,7 +5,6 @@
  *@n: parameter of the function
  *Return: Allow success
  */
- 
 int print_last_digit(int n)
 {
 int a;
