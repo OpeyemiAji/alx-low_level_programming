@@ -1,13 +1,16 @@
 #include "main.h"
-#include <stdio.h>
+
 
 /**
- * mul - multiples two integers
- * @a:The first number
- * @b: the second number
- * Return: return the result
+ * _isdigit - check if number are 0 - 9
+ * @c: char to check
+ * Return: 0 or 1
  */
-int mul(int a, int b)
+
+int _isdigit(int c)
 {
-return (a * b);
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
 }
