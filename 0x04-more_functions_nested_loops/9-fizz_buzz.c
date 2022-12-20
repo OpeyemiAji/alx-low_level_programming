@@ -1,11 +1,12 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * main - prints the nmubers from 1 to 100, next new line
  * but for multipless of three prints Fizz instaed of the number
  * and for the multiples of 5 printsBuzz
  * Return: 0 (success)
  */
+
 int main(void)
 {
 int i;
